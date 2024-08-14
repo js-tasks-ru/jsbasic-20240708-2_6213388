@@ -1,3 +1,4 @@
+
 import createElement from '../../assets/lib/create-element.js';
 export default class ProductCard {
 
@@ -39,5 +40,3 @@ export default class ProductCard {
     this.elem.dispatchEvent(event);
   }
 }
-
-
