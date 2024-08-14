@@ -3,10 +3,10 @@ import createElement from '../../assets/lib/create-element.js';
 export default class Carousel {
   constructor(slides) {
     this.slides = slides;
-    this.currentSlideIndex = 0; // Изначально показываем первый слайд
+    this.currentSlideIndex = 0;
 
-    this.elem = this._createCarousel(); // Создаем карусель и сохраняем её в this.elem
-    this._initCarousel(); // Инициализируем события и функциональность карусели
+    this.elem = this._createCarousel();
+    this._initCarousel();
   }
 
   _createCarousel() {
